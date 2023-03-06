@@ -347,6 +347,23 @@ getEvenNumbersOfAnArray(myNumbers);
 */
 
 
+/*
+var array1 = [10, 9, 8, 7, 3, 1, 5, 4,2];
+console.log(array1.sort());
+console.log(array1.reverse());
+console.log(array1.join());
+array1.push(60);
+array1.pop();
+array1.shift();
+array1.unshift(44);
+array1.fill(6);
+var check = array1.includes(3);
+console.log(check);
+console.log(array1);
+*/
+
+
+
 //========================================== Calculate Factorial of a number using for loop =====================================
 
 // 1 + 2 + 3 + 4 + 5 + 6 + 7

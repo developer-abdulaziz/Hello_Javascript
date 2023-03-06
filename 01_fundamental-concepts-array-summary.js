@@ -199,6 +199,20 @@ var nmbrIndex = number.indexOf(98);
 // console.log(nmbrIndex);
 */
 
+/*
+var array1 = [10, 9, 8, 7, 3, 1, 5, 4,2];
+console.log(array1.sort());
+console.log(array1.reverse());
+console.log(array1.join());
+array1.push(60);
+array1.pop();
+array1.shift();
+array1.unshift(44);
+array1.fill(6);
+var check = array1.includes(3);
+console.log(check);
+console.log(array1);
+*/
 
 
 
@@ -994,7 +1008,7 @@ if (danishPrice < myBudget) {
 
 
 
-var numbers = [54, 35, 21, 98, 23, 101, 45, 67];
+// var numbers = [54, 35, 21, 98, 23, 101, 45, 67];
 // for (var i = 0; i < numbers.length; i++) {
 //     var number = numbers[i];
 //     console.log(number);
