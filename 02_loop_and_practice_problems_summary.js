@@ -79,6 +79,27 @@ for (var i = 0; i < items.length; i++){
 }
 */
 
+/*
+var number = [12, 45, 54, 67, 44, 18];
+for(var i = 0; i < number.length; i++){
+    var index = i;
+    var element = number[index];
+    console.log(index, element);
+}
+*/
+
+/*
+var number = [12, 45, 54, 67, 44, 18];
+var sum = 0;
+for(var i = 0; i < number.length; i++){
+    var index = i;
+    var element = number[index];
+    var sum = sum + element;
+    console.log(index, element, sum);
+}
+*/
+
+
 // prblm solving
 // var fruits = ['apple', 'banana', 'orange'];
 // // var bananaIndex = fruits.indexOf('banana');

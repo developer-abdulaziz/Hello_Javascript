@@ -212,7 +212,16 @@ console.log(isMyLeapYear);
 // ================================================ Calculate Sum of all numbers of an array ==============================================
 
 // -------------- find-oddSum.js ------------------
+/*
+function getSum(numbers){
+    console.log(numbers);
+}
 
+let myNumbers = [12, 45, 67, 86, 47, 90, 24]
+getSum(myNumbers);
+*/
+
+//===================================================
 /*
 function getSumOfAnArray(numbers) {
     for (i = 0; i < numbers.length; i++) {
@@ -226,7 +235,7 @@ getSumOfAnArray(myNumbers);
  */
 
 
-
+//===================================================
 /* function getSumOfAnArray(numbers) {
     var sum = 0;
     for (i = 0; i < numbers.length; i++) {
@@ -244,6 +253,7 @@ console.log(result);
  */
 
 
+//===================================================
 // loop diye akta array er element er jog kora
 /*
  var sum = 0;
@@ -258,9 +268,47 @@ for (i = 0; i < myNumbers.length; i++) {
 
 //========================================== Get Odd Numbers of an array and get odd Sum of an array =====================================
 
+/* akti array er moddo theke even and odd number serioul vabe dekhanor niom */
+/*
+function getOddNumbersOfAnArray(numbers){
+    for(let i = 0; i < numbers.length; i++){
+       let index = i;
+       let element = numbers[i];
+       if(element % 2 ===0){
+          console.log(index, element);
+       }
+       else{
+          if(element % 2 != 0){
+             console.log(index, element);
+          }
+       }
+       
+    }
+ }
+ 
+ let myNumbers = [12, 34, 43, 13, 7, 8, 44, 64]
+ getOddNumbersOfAnArray(myNumbers);
+ */
+
+//===================================================
+/* akti array er moddo theke odd number serioul vabe dekhanor niom */
+/*
+function getOddNumbersOfAnArray(numbers){
+    for(let i = 0; i < numbers.length; i++){
+       let index = i;
+       let element = numbers[i];
+       if(element % 2 ===1){
+          console.log(index, element);
+       }      
+    }
+ }
+ 
+ let myNumbers = [12, 34, 43, 13, 7, 8, 44, 64]
+ getOddNumbersOfAnArray(myNumbers);
+*/
+
 
 //  akta array er moddo theke jor/odd and bijor/even ber kora
-
 // function getOddNumbersOfAnArray(numbers) {
 //     for (i = 0; i < numbers.length; i++) {
 //         let index = i;
@@ -386,6 +434,8 @@ for (i = 1; i <= 7; i++) {
 //     }
 //     return sum;
 // }
+
+
 
 // ------------ multiplcation of number -----------
 
