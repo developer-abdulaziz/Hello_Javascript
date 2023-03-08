@@ -1,4 +1,14 @@
 
+/*
+    1.includes
+    2.indexOf
+    3.startsWith
+    4.endsWith
+    5.toLowerCase()
+    6.toUpperCase()
+*/
+/* Math, abs, pow, round, ceil, floor, and random number */
+
 
 // ============================================= String comparison using toLowerCase toUpperCase ===============================================
 
@@ -162,7 +172,7 @@ console.log(text);
 /*
  const myNumber = -5;
 const output = Math.abs(myNumber);
-console.log(output);
+console.log(output); //5
  */
 
 
@@ -278,6 +288,7 @@ else {
     console.log('dela you will get the cake')
 }
 */
+
 
 
 // tinta jiniser lojik ber kora

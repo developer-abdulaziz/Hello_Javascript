@@ -80,7 +80,7 @@ for(var i = 0; i < number.length; i++){
 // sobcheye boro number ber koro
 /*
 function largestNumber(num){
-   var largest = num[0];
+   var largest = num[0]; // ekhane array er o index theke suru hobe
    for(var i = 0; i < num.length; i++){
       var index = i;
       var element = num[index];
@@ -100,7 +100,7 @@ console.log(large);
 // sobcheye soto number ber koro
 /*
 function smallestNumber (numbers){
-   var small = numbers[0];
+   var small = numbers[0]; // ekhane array er o index theke suru hobe
    for(var i = 0; i < numbers.length; i++){
       var index = i;
       var element = numbers[index];
@@ -115,3 +115,26 @@ var number = [100, 12, 45, 54, 67, 44, 18, 4];
 var smallNumber = smallestNumber(number);
 console.log(smallNumber);
 */
+
+
+// Find the largest element of an array
+// array er element er modde boro songkha konti
+
+// function maxInArray(numbers) {
+//     // console.log(numbers);
+//     let largest = numbers[0]; // ekhane array er o index theke suru hobe
+//     for (i = 0; i < numbers.length; i++) {
+//         const index = i;
+//         const element = numbers[index];
+//         if (element > largest) {
+//             largest = element;
+//         }
+//     }
+//     return largest;
+// }
+
+// const heights = [167, 190, 120, 165, 137];
+// const tallest = maxInArray(heights);
+// console.log('tallest person is: ', tallest);
+
+

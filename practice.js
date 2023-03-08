@@ -115,3 +115,41 @@ var number = [100, 12, 45, 54, 67, 44, 18, 4];
 var smallNumber = smallestNumber(number);
 console.log(smallNumber);
 */
+
+
+
+// function maxInArray(numbers) {
+//     // console.log(numbers);
+//     let largest = numbers[0]; // ekhane array er o index theke suru hobe
+//     for (i = 0; i < numbers.length; i++) {
+//         const index = i;
+//         const element = numbers[index];
+//         if (element > largest) {
+//             largest = element;
+//         }
+//     }
+//     return largest;
+// }
+
+// const heights = [167, 190, 120, 165, 137];
+// const tallest = maxInArray(heights);
+// console.log('tallest person is: ', tallest);
+
+
+function maxInArray(numbers){
+      let maximum = numbers[0];
+   for(let i = 0; i < numbers.length; i++){
+      let index = i;
+      let element = numbers[index];
+      console.log(index, element);
+      if(element > maximum){
+         maximum = element;
+      }
+   }
+   return maximum;
+}
+
+
+const heights = [43, 167, 190, 120, 165, 137];
+const tallest = maxInArray(heights);
+console.log('tallest person is: ', tallest);
