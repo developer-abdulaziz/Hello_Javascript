@@ -12,3 +12,8 @@
 
 Math.random ====> 0.3111
 */
+
+function add(a, b){
+    return a + b;
+  }
+  console.log(add("adam" + "eve"))
