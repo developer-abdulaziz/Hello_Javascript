@@ -13,7 +13,21 @@
 Math.random ====> 0.3111
 */
 
-function add(a, b){
-    return a + b;
-  }
-  console.log(add("adam" + "eve"))
+var country = 'bangladesh';
+let nm = ['cake', 'apple', 'banana', 'anaros']
+let num = [12, 34, 35, 67, 90]
+// for(let i = 0; i < nm.length; i++){
+//   let index = i;
+//   let element = nm[index];
+//   console.log(`index: ${i}`, element);
+//   console.log(element);
+// }
+
+let sum = 0;
+for(let i = 0; i < num.length; i++){
+  let index = i;
+  let element = num[index];
+  // console.log(`index: ${i}`, element);
+   sum = sum + element;
+  console.log(sum);
+}

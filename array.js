@@ -65,7 +65,7 @@ else{
 */
 
 
-//-----------------------
+//----------- index and array element aksathe dekhanor khetre -------------
 /*
 var number = [12, 45, 54, 67, 44, 18];
 for(var i = 0; i < number.length; i++){
@@ -74,6 +74,20 @@ for(var i = 0; i < number.length; i++){
    console.log(index, element);
 }
 */
+
+//----------- index and array element aksathe dekhano and aksathe jog kora -------------
+/*
+let number = [12, 45, 54, 67, 44, 18];
+let sum = 0;
+for (let i = 0; i < number.length; i++){
+   let index = i;
+   let element = number[index];
+   console.log(`index: ${i}`, element, `total: ${sum}`);
+   sum = sum + element;
+   // console.log(`total: ${sum}`);
+}
+*/
+
 
 
 //-----------------------
