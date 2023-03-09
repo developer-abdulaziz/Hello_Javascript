@@ -34,10 +34,3 @@ let num = [12, 34, 35, 67, 90]
 
 
 
-let n = parseInt(prompt("Enter the number of terms: "));
-let result = 0;
-for(let i = 0; i <= n; i++){
-  console.log(i*i);
-  result += i*i;
-}
-console.log(result);
