@@ -23,14 +23,14 @@ let num = [12, 34, 35, 67, 90]
 //   console.log(element);
 // }
 
-// let sum = 0;
-// for(let i = 0; i < num.length; i++){
-//   let index = i;
-//   let element = num[index];
-//   // console.log(`index: ${i}`, element);
-//    sum = sum + element;
-//   console.log(sum);
-// }
+let sum = 0;
+for(let i = 0; i < num.length; i++){
+  let index = i;
+  let element = num[index];
+  // console.log(`index: ${i}`, element);
+   sum = sum + element;
+  console.log(sum);
+}
 
 
 

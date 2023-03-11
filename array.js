@@ -152,3 +152,24 @@ console.log(smallNumber);
 // console.log('tallest person is: ', tallest);
 
 
+
+//  akta array theke double namegulo remove kora:
+/*
+function removeDuplicate(names){
+   let unique = [];
+   for(let i = 0; i < names.length; i++){
+       let index = i;
+       let element = names[index];
+       console.log(index, element);
+       if(unique.includes(element)===false){
+         unique.push(element);
+       }
+   }
+   return unique;
+}
+
+const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'fabul', 'babul', 'ebul', 'babul', 'gabul', 'abul', 'habul', 'dabul'];
+
+let duplicateName = removeDuplicate(names);
+console.log(duplicateName);
+*/
